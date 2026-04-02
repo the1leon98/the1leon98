@@ -1,3 +1,5 @@
+<div align="center">
+ 
 # 👋
 
 ![Banner](banner.png)
@@ -7,7 +9,9 @@
 ## 😶‍🌫️ About me
 - 👽 Student
 - fxck the society
+
  ---
+
 
  ### 🛠️ Sprachen & Tools
  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -26,3 +30,5 @@
 
  ### 🔗 Kontakt
  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/the1leon)
+
+</div>
