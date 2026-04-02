@@ -23,13 +23,13 @@
 
  ### 📊 Statistikn
 
-<table align="center" border="0">
+<table align="center" border="0"
+cellspacing="0" cellpadding="0">
  <tr>
-   <td wight="50%" align="center">
-     <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=the1leon98&show_icons=true&theme=dark" alt="GitHub Stats"
-      height="180px" />
+   <td align="center" velign="top">
+     <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=the1leon98&show_icons=true&theme=dark" height="170px" alt="GitHub Stats">
    </td>
-   <td width="50%" align="center" valign="top">
+   <td align="center" valign="top">
      <img src="https://github-readme-streak-stats.herukuapp.com/?username=the1leon98&theme=dark" height="170px" alt="GitHub Streak" />
    </td>
  </tr>
@@ -38,7 +38,7 @@
 <br />
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=the1leon98&theme=react-dark" alt="Contribution Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=the1leon98&theme=react-dark&bg_color=0d1117" " alt="Contribution Graph" width="100%" />
 </p>
 
  ---
