@@ -22,9 +22,24 @@
  ---
 
  ### 📊 Statistikn
-![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=the1leon98&show_icons=true&theme=dark)
 
-![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=the1leon98&layout=compact&theme=dark)
+<table align="center" border="0">
+ <tr>
+   <td wight="50%" align="center">
+     <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=the1leon98&show_icons=true&theme=dark" alt="GitHub Stats"
+      height="180px" />
+   </td>
+   <td width="50%" align="center">
+     <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=the1leon98&layout=compact&theme=dark" alt="Top Langs" height="180px" />
+   </td>
+ </tr>
+</table>
+
+<br />
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=the1leon98&theme=react-dark" alt="Contribution Graph" width="100%" />
+</p>
 
  ---
 
