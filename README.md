@@ -1,6 +1,6 @@
 # 👋
 
-![Banner](https:https://i.pinimg.com/736x/80/bf/25/80bf258666408557f28e75d014584b98.jpg)
+![Banner](banner.png)
 
 ---
 
@@ -19,15 +19,15 @@
 
  ### 📊 Statistikn
  <p align="left">
-   <img src="https://github-readme-stats.vercel.app/api?username=the1leon98&show_icons=true&theme=dark"alt="Statistiken" />
+   <img src="https://github-readme-stats.vercel.app/api?username=the1leon98&show_icons=true&theme=dark" alt="Statistiken" />
  </p>
 
  <p align="left">
-   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the1leon98&layout=compact&theme=dark"alt="Sprachen" />
+   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the1leon98&layout=compact&theme=dark" alt="Sprachen" />
  </p>
 
  ---
 
  ### 🔗 Kontakt
- [![LinkedIN](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]
+ [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]
  (https://www.linkedin.com/in/the1leon)
