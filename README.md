@@ -1,19 +1,19 @@
 <div align="center">
  
-# 👋
+# 👋𝚖𝚘𝚒𝚗
 
 ![Banner](banner.png)
 
 ---
 
-## 😶‍🌫️ About me
-- 👽 Student
-- fxck the society
+## 😶‍🌫️ 𝔄𝔟𝔬𝔲𝔱 𝔪𝔢
+- 👽 𝚂𝚝𝚞𝚍𝚎𝚗𝚝
+- 𝚏𝚡𝚌𝚔 𝚝𝚑𝚎 𝚜𝚘𝚌𝚒𝚎𝚝𝚢
 
  ---
 
 
- ### 🛠️ Sprachen & Tools
+ ### 🛠️ 𝔖𝔭𝔯𝔞𝔠𝔥𝔢𝔫 & 𝔗𝔬𝔬𝔩𝔰
  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
  ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -21,7 +21,7 @@
 
  ---
 
- ### 📊 Statistikn
+ ### 📊 𝔖𝔱𝔞𝔱𝔦𝔰𝔱𝔦𝔨𝔢𝔫
 
 <table align="center" border="0"
 cellspacing="0" cellpadding="0">
@@ -43,7 +43,7 @@ cellspacing="0" cellpadding="0">
 
  ---
 
- ### 🔗 Kontakt
+ ### 🔗 𝔎𝔬𝔫𝔱𝔞𝔨𝔱
  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/the1leon)
 
 </div>
