@@ -18,9 +18,7 @@
  ---
 
  ### 📊 Statistikn
- ![Anurags Stats](https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=the1leon98&show_icons=true&theme=dark)
-
- ![Top Langs](https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=the1leon98&layout=compact&theme=dark)
+![GitHub Stats](https://github-readme-github-combined-stats-one.vercel.app/api?username=the1leon98&theme=dark)
 
  ---
 
