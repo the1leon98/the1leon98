@@ -29,8 +29,8 @@
      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=the1leon98&show_icons=true&theme=dark" alt="GitHub Stats"
       height="180px" />
    </td>
-   <td width="50%" align="center">
-     <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=the1leon98&layout=compact&theme=dark" alt="Top Langs" height="180px" />
+   <td width="50%" align="center" valign="top">
+     <img src="https://github-readme-streak-stats.herukuapp.com/?username=the1leon98&theme=dark" height="170px" alt="GitHub Streak" />
    </td>
  </tr>
 </table>
