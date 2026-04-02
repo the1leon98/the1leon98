@@ -18,10 +18,11 @@
  ---
 
  ### 📊 Statistikn
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=the1leon98&show_icons=true&theme=transparent)
+![GitHub Stats](https://github-readme-stats-eight-theta.vercel.app/api?username=the1leon98&show_icons=true&theme=dark)
+
+![Top Langs](https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=the1leon98&layout=compact&theme=dark)
 
  ---
 
  ### 🔗 Kontakt
- ![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
- (https://www.linkedin.com/in/the1leon)
+ [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/the1leon)
