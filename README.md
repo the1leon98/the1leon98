@@ -30,7 +30,7 @@ cellspacing="0" cellpadding="0">
      <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=the1leon98&show_icons=true&theme=dark" height="170px" alt="GitHub Stats">
    </td>
    <td align="center" valign="top">
-     <img src="https://github-readme-streak-stats.herukuapp.com/?user=the1leon98&theme=dark&hide_border=true" height="170px" alt="GitHub Streak" />
+     <img src="https://github-readme-streak-stats.herokuapp.com/?user=the1leon98&theme=dark&hide_border=true" height="170px" alt="GitHub Streak" />
    </td>
  </tr>
 </table>
