@@ -2,7 +2,7 @@
  
 # 👋𝚖𝚘𝚒𝚗
 
-![Banner](banner.png)
+![Banner](banner.gif)
 
 ---
 
