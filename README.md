@@ -1,10 +1,10 @@
-<div align="center">
- 
+
 # 👋𝚖𝚘𝚒𝚗
 
 <div align="center">
-  <img src="banner.gif" width="100%" />
-   </div>
+ <img width="1620" height="650" alt="banner" src="https://github.com/user-attachments/assets/aa065f8e-11ce-463d-9935-0a35ebd97861" />
+</div>
+
    
 ---
 
