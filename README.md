@@ -2,8 +2,10 @@
  
 # 👋𝚖𝚘𝚒𝚗
 
-![Banner](banner.gif)
-
+<div align="center">
+  <img src="banner.gif" width="100%" />
+   </div>
+   
 ---
 
 ## 😶‍🌫️ 𝔄𝔟𝔬𝔲𝔱 𝔪𝔢
