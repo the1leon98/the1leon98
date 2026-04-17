@@ -2,7 +2,7 @@
 # 👋𝚖𝚘𝚒𝚗
 
 <div align="center">
- <img width="1620" height="650" alt="banner" src="https://github.com/user-attachments/assets/aa065f8e-11ce-463d-9935-0a35ebd97861" />
+ <img src="https://github.com/user-attachments/assets/aa065f8e-11ce-463d-9935-0a35ebd97861" width="100%" />
 </div>
 
    
