@@ -1,12 +1,12 @@
-# Erzeugt alle dynamischen Grafiken des Profil-READMEs selbst und legt sie
-# im Ordner profile/ ab. Dadurch hängt das Profil nicht von fremden,
-# überlasteten Servern ab (der alte Stats-Link zeigt aktuell gar nichts an).
-name: Profil-Grafiken aktualisieren
+# Generates all dynamic graphics of the profile README and stores them in
+# profile/. This way the profile doesn't depend on overloaded third-party
+# servers (the old public stats instance stopped rendering).
+name: Update profile graphics
 
 on:
   schedule:
-    - cron: "17 3 * * *"   # täglich ~04:17 Uhr deutscher Zeit
-  workflow_dispatch:         # manuell startbar (Actions-Tab -> "Run workflow")
+    - cron: "17 3 * * *"   # daily at ~04:17 German time
+  workflow_dispatch:         # manual start (Actions tab -> "Run workflow")
   push:
     branches: [main]
     paths: [".github/workflows/profile-cards.yml"]
@@ -19,8 +19,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  # Gemeinsames Farbschema: transparenter Hintergrund -> passt zu Light & Dark Mode
-  CARD_THEME: "bg_color=00000000&hide_border=true&title_color=ff8c42&icon_color=ff8c42&text_color=8b949e&locale=de"
+  # Shared colour scheme: transparent background -> works in light & dark mode
+  CARD_THEME: "bg_color=00000000&hide_border=true&title_color=ff8c42&icon_color=ff8c42&text_color=8b949e&locale=en"
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Statistik-Karte
+      - name: Stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
@@ -36,15 +36,15 @@ jobs:
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Top-Sprachen-Karte
+      - name: Top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&exclude_repo=build-your-own-x&${{ env.CARD_THEME }}
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&exclude_repo=build-your-own-x,motorsport-manager&${{ env.CARD_THEME }}
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Contribution-Snake (hell + dunkel)
+      - name: Contribution snake (light + dark)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -52,11 +52,11 @@ jobs:
             profile/snake-light.svg?color_snake=#d9601a&color_dots=#ebedf0,#ffd8b8,#ffb27a,#ff8c42,#d9601a
             profile/snake-dark.svg?palette=github-dark&color_snake=#ff8c42&color_dots=#161b22,#4a2a14,#7a3e17,#c2601f,#ff8c42
 
-      - name: Änderungen committen
+      - name: Commit changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/
-          git diff --cached --quiet && echo "Keine Änderungen." && exit 0
-          git commit -m "chore: Profil-Grafiken aktualisieren"
+          git diff --cached --quiet && echo "No changes." && exit 0
+          git commit -m "chore: update profile graphics"
           git push

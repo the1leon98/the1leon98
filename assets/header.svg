@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="210" viewBox="0 0 860 210" role="img" aria-labelledby="title desc">
   <title id="title">leon@hamburg — Terminal</title>
-  <desc id="desc">whoami: Leon, Azubi Fachinformatiker für Anwendungsentwicklung am BBW Hamburg. Interessen: Cybersecurity, Homelab, Linux, Game Dev, Python.</desc>
+  <desc id="desc">whoami: Leon, apprentice IT specialist for application development. Interests: cybersecurity, homelab, Linux, Python.</desc>
   <style>
     text{font:15px ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;white-space:pre}
     .p{fill:#3fb950;font-weight:600} .c{fill:#e6edf3} .o{fill:#8b949e} .o1{fill:#e6edf3}
@@ -19,11 +19,11 @@
     <text x="32" y="78" class="p p0">leon@hamburg:~$</text>
     <text x="176.0" y="78" class="c">whoami</text>
     <rect class="cv cv0" x="175.0" y="62" width="58.0" height="22"/>
-    <text x="32" y="104" class="o o1">Leon · Azubi Fachinformatiker für Anwendungsentwicklung @ BBW Hamburg</text>
+    <text x="32" y="104" class="o o1">Leon · Apprentice IT Specialist for Application Development</text>
     <text x="32" y="130" class="p p2">leon@hamburg:~$</text>
     <text x="176.0" y="130" class="c">cat interests.txt</text>
     <rect class="cv cv2" x="175.0" y="114" width="157.0" height="22"/>
-    <text x="32" y="156" class="o o3">Cybersecurity · Homelab · Linux · Game Dev · Python</text>
+    <text x="32" y="156" class="o o3">Cybersecurity · Homelab · Linux · Python</text>
     <text x="32" y="182" class="p p4">leon@hamburg:~$</text>
     <rect class="cur" x="176.0" y="168" width="9" height="18"/>
   </g>

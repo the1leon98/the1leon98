@@ -1,13 +1,13 @@
-"""Erzeugt assets/header.svg – ein Terminal-Fenster mit Tipp-Animation.
+"""Generates assets/header.svg – a terminal window with a typing animation.
 
-Reines SVG + CSS, keine externen Abhängigkeiten. Text ändern: Liste `script` anpassen,
-dann im Repo-Hauptordner ausführen:   python3 scripts/make_header.py
+Pure SVG + CSS, no external dependencies. To change the text, edit the `script`
+list below, then run from the repo root:   python3 scripts/make_header.py
 """
 from html import escape
 
-CW = 9.0           # Zeichenbreite bei 15px Monospace (~0.6em)
-TYPE = 0.065       # Sekunden pro getipptem Zeichen
-PAUSE = 0.45       # Pause zwischen Zeilen
+CW = 9.0           # character width at 15px monospace (~0.6em)
+TYPE = 0.065       # seconds per typed character
+PAUSE = 0.45       # pause between lines
 X0, Y0, LH = 32, 78, 26
 W, H = 860, 210
 
@@ -15,9 +15,9 @@ ACCENT, MUTED, TEXT, PROMPT = "#ff8c42", "#8b949e", "#e6edf3", "#3fb950"
 
 script = [
     ("cmd", "whoami"),
-    ("out", "Leon · Azubi Fachinformatiker für Anwendungsentwicklung @ BBW Hamburg"),
+    ("out", "Leon · Apprentice IT Specialist for Application Development"),
     ("cmd", "cat interests.txt"),
-    ("out", "Cybersecurity · Homelab · Linux · Game Dev · Python"),
+    ("out", "Cybersecurity · Homelab · Linux · Python"),
     ("cmd", ""),
 ]
 
@@ -32,7 +32,7 @@ for i, (kind, text) in enumerate(script):
             n = len(text)
             dur = n * TYPE
             body.append(f'<text x="{cx}" y="{y}" class="c">{escape(text)}</text>')
-            # Abdeckung schiebt sich zeichenweise nach rechts -> Tipp-Effekt
+            # a cover slides right one character at a time -> typing effect
             body.append(f'<rect class="cv cv{i}" x="{cx - 1}" y="{y - 16}" width="{n * CW + 4}" height="22"/>')
             css.append(f".cv{i}{{transform:translateX({n * CW + 4:.0f}px);animation:type{i} {dur:.2f}s steps({n},end) {t:.2f}s both}}"
                        f"@keyframes type{i}{{from{{transform:translateX(0)}}to{{transform:translateX({n * CW + 4:.0f}px)}}}}")
@@ -48,7 +48,7 @@ for i, (kind, text) in enumerate(script):
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">
   <title id="title">leon@hamburg — Terminal</title>
-  <desc id="desc">whoami: Leon, Azubi Fachinformatiker für Anwendungsentwicklung am BBW Hamburg. Interessen: Cybersecurity, Homelab, Linux, Game Dev, Python.</desc>
+  <desc id="desc">whoami: Leon, apprentice IT specialist for application development. Interests: cybersecurity, homelab, Linux, Python.</desc>
   <style>
     text{{font:15px ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;white-space:pre}}
     .p{{fill:{PROMPT};font-weight:600}} .c{{fill:{TEXT}}} .o{{fill:{MUTED}}} .o1{{fill:{TEXT}}}
