@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="210" viewBox="0 0 860 210" role="img" aria-labelledby="title desc">
+  <title id="title">leon@hamburg — Terminal</title>
+  <desc id="desc">whoami: Leon, Azubi Fachinformatiker für Anwendungsentwicklung am BBW Hamburg. Interessen: Cybersecurity, Homelab, Linux, Game Dev, Python.</desc>
+  <style>
+    text{font:15px ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;white-space:pre}
+    .p{fill:#3fb950;font-weight:600} .c{fill:#e6edf3} .o{fill:#8b949e} .o1{fill:#e6edf3}
+    .cv{fill:#0d1117} .cur{fill:#ff8c42}
+    .p0{animation:show .01s 0.15s both}.cv0{transform:translateX(58px);animation:type0 0.39s steps(6,end) 0.40s both}@keyframes type0{from{transform:translateX(0)}to{transform:translateX(58px)}}.o1{animation:show .01s 1.24s both}.p2{animation:show .01s 1.44s both}.cv2{transform:translateX(157px);animation:type2 1.10s steps(17,end) 1.69s both}@keyframes type2{from{transform:translateX(0)}to{transform:translateX(157px)}}.o3{animation:show .01s 3.25s both}.p4{animation:show .01s 3.45s both}.cur{animation:show .01s 3.70s both,blink 1s steps(1) 3.70s infinite}
+    @keyframes show{from{opacity:0}to{opacity:1}}
+    @keyframes blink{50%{opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <defs><clipPath id="win"><rect x="1" y="1" width="858" height="208" rx="12"/></clipPath></defs>
+  <rect x="0.5" y="0.5" width="859" height="209" rx="12" fill="#0d1117" stroke="#30363d"/>
+  <path d="M1 40h858" stroke="#30363d"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f56"/><circle cx="44" cy="20" r="6" fill="#ffbd2e"/><circle cx="64" cy="20" r="6" fill="#27c93f"/>
+  <text x="430.0" y="25" text-anchor="middle" style="font-size:13px;fill:#8b949e">leon@hamburg: ~</text>
+  <g clip-path="url(#win)">
+    <text x="32" y="78" class="p p0">leon@hamburg:~$</text>
+    <text x="176.0" y="78" class="c">whoami</text>
+    <rect class="cv cv0" x="175.0" y="62" width="58.0" height="22"/>
+    <text x="32" y="104" class="o o1">Leon · Azubi Fachinformatiker für Anwendungsentwicklung @ BBW Hamburg</text>
+    <text x="32" y="130" class="p p2">leon@hamburg:~$</text>
+    <text x="176.0" y="130" class="c">cat interests.txt</text>
+    <rect class="cv cv2" x="175.0" y="114" width="157.0" height="22"/>
+    <text x="32" y="156" class="o o3">Cybersecurity · Homelab · Linux · Game Dev · Python</text>
+    <text x="32" y="182" class="p p4">leon@hamburg:~$</text>
+    <rect class="cur" x="176.0" y="168" width="9" height="18"/>
+  </g>
+</svg>
