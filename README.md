@@ -2,6 +2,7 @@
   Profile README of the1leon98
   - Banner:  custom GIF (GitHub user-attachments)
   - Header:  assets/header.svg  (hand-built, pure SVG + CSS – edit via scripts/make_header.py)
+  - Covers:  assets/cover-*.svg (project covers – edit via scripts/make_covers.py)
   - Stats:   profile/*.svg      (regenerated daily by .github/workflows/profile-cards.yml)
 -->
 
@@ -61,10 +62,41 @@
 
 ## Featured projects
 
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [**Homelab-Imperium**](https://github.com/the1leon98/Homelab-Imperium) | Self-hosted HomeOS dashboard for headless Ubuntu Server machines | Python · FastAPI · Docker · Vanilla JS |
-| [**OSINT Recon Tool**](https://github.com/the1leon98/osint-recon-tool-bbw) | Automated OSINT research with AI-based risk analysis and a printable report | Python · Rich CLI · HTML/CSS |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/the1leon98/Homelab-Imperium">
+        <img src="./assets/cover-homelab-imperium.svg" width="100%" alt="Cover: Homelab-Imperium – self-hosted HomeOS dashboard" />
+      </a>
+      <h3>Homelab-Imperium</h3>
+      <p>Self-hosted HomeOS dashboard for headless Ubuntu Server machines. A FastAPI backend manages containers, system metrics and files behind a lightweight vanilla JS frontend.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-30363d?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/FastAPI-30363d?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Docker-30363d?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/JavaScript-30363d?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
+      </p>
+      <a href="https://github.com/the1leon98/Homelab-Imperium">
+        <img src="https://img.shields.io/badge/View_Repository-ff8c42?style=for-the-badge&logo=github&logoColor=white" alt="View repository: Homelab-Imperium" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/the1leon98/osint-recon-tool-bbw">
+        <img src="./assets/cover-osint-recon-tool.svg" width="100%" alt="Cover: OSINT Recon Tool – automated OSINT research with AI risk analysis" />
+      </a>
+      <h3>OSINT Recon Tool</h3>
+      <p>Automated OSINT research: checks usernames across platforms, runs an AI-based risk analysis and generates a printable HTML/PDF security report.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-30363d?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Rich_CLI-30363d?style=flat-square&logo=gnubash&logoColor=white" alt="Rich CLI" />
+        <img src="https://img.shields.io/badge/HTML%2FCSS-30363d?style=flat-square&logo=html5&logoColor=white" alt="HTML/CSS" />
+      </p>
+      <a href="https://github.com/the1leon98/osint-recon-tool-bbw">
+        <img src="https://img.shields.io/badge/View_Repository-ff8c42?style=for-the-badge&logo=github&logoColor=white" alt="View repository: OSINT Recon Tool" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## GitHub stats
 

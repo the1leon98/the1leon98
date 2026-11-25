@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Cover: OSINT Recon Tool – automated OSINT research with AI risk analysis">
+  <style>
+    .t{font:700 58px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e6edf3} .s{font:400 28px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#8b949e}
+    .tag{font:500 18px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#e6edf3} .m{font:16px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#8b949e} .mt{font:16px ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#e6edf3}
+    .k{font:600 13px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#8b949e;letter-spacing:.08em} .v{font:700 30px -apple-system,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e6edf3}
+  </style>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+    <radialGradient id="glow" cx="78%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#ff8c42" stop-opacity=".18"/><stop offset="1" stop-color="#ff8c42" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="640" fill="#0d1117"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <rect x="80" y="170" width="56" height="6" rx="3" fill="#ff8c42"/>
+  <text x="80" y="260" class="t">OSINT Recon Tool</text>
+  <text x="80" y="315" class="s">Automated OSINT research</text>
+  <text x="80" y="353" class="s">with AI-based risk analysis</text>
+  <rect x="80" y="430" width="102" height="40" rx="20" fill="none" stroke="#30363d" stroke-width="2"/><text x="131.0" y="456" text-anchor="middle" class="tag">Python</text><rect x="196" y="430" width="124" height="40" rx="20" fill="none" stroke="#30363d" stroke-width="2"/><text x="258.0" y="456" text-anchor="middle" class="tag">Rich CLI</text><rect x="334" y="430" width="124" height="40" rx="20" fill="none" stroke="#30363d" stroke-width="2"/><text x="396.0" y="456" text-anchor="middle" class="tag">HTML/CSS</text>
+  <rect x="700" y="110" width="500" height="420" rx="14" fill="#161b22" stroke="#30363d" stroke-width="2" /><text x="728" y="154" class="mt"><tspan fill="#3fb950">$</tspan> recon --target &lt;username&gt;</text><text x="728" y="198" class="m">[1/5] github    </text><text x="960" y="198" class="mt" style="fill:#ff8c42">● found</text><text x="728" y="228" class="m">[2/5] reddit    </text><text x="960" y="228" class="mt" style="fill:#ff8c42">● found</text><text x="728" y="258" class="m">[3/5] instagram </text><text x="960" y="258" class="mt" style="fill:#8b949e">● none</text><text x="728" y="288" class="m">[4/5] x.com     </text><text x="960" y="288" class="mt" style="fill:#ff8c42">● found</text><text x="728" y="318" class="m">[5/5] twitch    </text><text x="960" y="318" class="mt" style="fill:#8b949e">● none</text><path d="M728 364h444" stroke="#30363d" stroke-width="2" stroke-dasharray="6 6"/><circle cx="810" cy="446" r="52" fill="none" stroke="#30363d" stroke-width="14"/><circle cx="810" cy="446" r="52" fill="none" stroke="#ff8c42" stroke-width="14" stroke-linecap="round" stroke-dasharray="196.0 326.7" transform="rotate(-90 810 446)"/><text x="810" y="456" text-anchor="middle" class="v">AI</text><text x="900" y="426" class="k">RISK ANALYSIS</text><text x="900" y="456" class="mt">score 0–100 + summary</text><text x="900" y="484" class="m">→ HTML / PDF report</text>
+</svg>
