@@ -69,12 +69,11 @@
         <img src="./assets/cover-homelab-imperium.svg" width="100%" alt="Cover: Homelab-Imperium – self-hosted HomeOS dashboard" />
       </a>
       <h3>Homelab-Imperium</h3>
-      <p>Self-hosted HomeOS dashboard for headless Ubuntu Server machines. A FastAPI backend manages containers, system metrics and files behind a lightweight vanilla JS frontend.</p>
+      <p>Self-hosted HomeOS dashboard for headless Ubuntu Server machines, with a FastAPI backend for containers, system metrics and files.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-30363d?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/FastAPI-30363d?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
         <img src="https://img.shields.io/badge/Docker-30363d?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-        <img src="https://img.shields.io/badge/JavaScript-30363d?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" />
       </p>
       <a href="https://github.com/the1leon98/Homelab-Imperium">
         <img src="https://img.shields.io/badge/View_Repository-ff8c42?style=for-the-badge&logo=github&logoColor=white" alt="View repository: Homelab-Imperium" />
