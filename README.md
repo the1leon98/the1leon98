@@ -16,7 +16,6 @@
 
 <br /><br />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-the1leon-0A66C2?style=flat-square)](https://www.linkedin.com/in/the1leon)
 ![Location](https://img.shields.io/badge/Hamburg-Germany-ff8c42?style=flat-square&logo=googlemaps&logoColor=white)
 
 </div>
@@ -28,7 +27,7 @@
 - 🖥️ Running my own **homelab server** (Ubuntu Server, Docker, Tailscale)
 - 🐧 Daily driver: **Arch Linux + Hyprland**
 - 🔧 Former automotive mechanic apprentice – now I tune code instead of engines
-<!-- - 🔭 Open to an internship – remote welcome. Reach out on LinkedIn! -->
+<!-- - 🔭 Open to an internship – remote welcome. -->
 
 ## Tech stack
 
